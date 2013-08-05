@@ -1,0 +1,14 @@
+Statistik
+
+antal spelare
+$query = "SELECT COUNT(user_id) FROM rp_users";
+
+SELECT COUNT(user_level) FROM user WHERE user_level='Expert'
+
+
+$query = "SELECT user_name FROM rp_users ORDER BY user_language";
+$result = $mysqli->query($query);
+
+antal rollspel
+antal texter
+antal karaktärer

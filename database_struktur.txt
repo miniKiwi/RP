@@ -1,0 +1,90 @@
+Tabellstruktur
+
+User
+1. user_id
+2. user_name
+3. user_password
+4. user_age
+5. user_gender
+6. user_language
+7. user_banned
+8. user_registered
+9. user_activation_key
+10. user_level
+11. user_avatar
+12. user_presentation
+
+Chars
+1. char_id
+2. user_id
+3. char_name
+4. char_avatar
+5. char_theme
+6. char_type
+7. char_short_description
+8. char_presentation
+
+
+Rollspelet
+1. rp_id
+2. rp_name
+3. rp_manager
+4. rp_language
+5. rp_theme
+6. rp_short_description
+7. rp_presentation
+8. rp_char_types_allowed
+9. rp_managers_rules
+10. rp_map
+11. rp_requested, wanted
+12. rp_maxplayers
+13. rp_status (öppen, låst, gömd, avslutad)
+14. 
+
+
+char_type
+1. dragon
+2. wolf
+
+Themes
+1. Fantasy
+2. Animals
+3. Nature
+4. Science Fiction
+5. Action
+6. Historical
+
+
+Nivåer
+1. Novice
+2. Expert
+3. Elite
+
+
+Poster/Inlägg
+1. post_id
+2. rp_id
+3. char_name
+4. user_name
+5. char_avatar
+6. post_date
+7. post_date_gmt
+8. post_content
+9. post_status
+10. post_reported
+11. 
+
+
+Blocked players
+1. ID
+2. rp_id
+3. user_id
+4. user_status
+
+
+Rollspelets status vs rollspelarnas status
+1. ID
+2. rp_id
+3. char_id
+4. char_status  (open, invited, blocked)
+5. char_request_join

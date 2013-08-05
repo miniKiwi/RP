@@ -1,0 +1,160 @@
+Rollspel 
+
+Startsida med information om websiten och regelverk etc.
+Sidan ska innehålla skapa konto.
+Sidan kan även innehålla en del faktainfo & statistik.
+
+Websiten ska ramas in utav snygg och överskådlig grafik.
+Websiten ska anpassas för 1024x768 skärmar
+
+Websiten ska vara åtkomlig från app och den ska ha samma funktioner.
+Websiten ska vara åtkomlig för mobila enheter?
+
+Sökkriterier
+
+Sökfunktionen finns hos spelarens startsida efter inloggning
+
+Kan söka på alla spel som syns utifrån spelarens level. Har olika kriterier att söka på rent allmänt och kan då få en god uppfattning om alla rollspel som finns. Sedan krävs att när spelaren väljer ett rollspel att det finns en karaktär som kan joina det spelet.
+
+Spelaren kan gå in på respektive rollspel och läsa innehållet / presentationen etc
+
+
+Sökfunktionen finns hos spelarens karaktärsida. 
+
+Ej synas
+  - Stängda rollspel
+  - Slutna rollspel som ej tar in vem som helst
+  - Skapade men ej startade rollspel
+  - Inaktiva rollspel
+  - Rollspel som tillhör kategorier man inte vill se
+  - Karaktärens roll passar ej in
+  - Fel språk
+  
+ Ska synas
+   - Aktiva rollspel
+   - Öppna rollspel där man kan göra förfrågan till spelledaren
+   - Öppna rollspel där man direkt kan joina
+   - Rätt level för spelaren, rätt behörighet
+   - Rätt kategorier (valda)
+   - Karaktärens roll passar
+   - Rätt språk
+
+Sökfunktionen visar en tabell innehållande
+ - Rollspelets namn
+ - Rollspelets tema
+ - Rollspelets spelledares namn och nivå/titel
+ - Rollspelets nivå (som ska matcha med spelarens nivå för att kunna joina eller se rollspelet)
+ - Rollspelets korta beskrivning, max 30 tecken
+ - Antal deltagare
+ - Rollspelets status (i form av en knapp antingen REQUEST JOIN / JOIN)
+   
+Aktiva konton
+
+Aktiveringsperiod 30 dagar, ska ha samlat några poäng
+Inaktiv period ej uppnåt mer än initiala poängmax tas bort efter 6 månader
+Givetvis ska de meddelas via mail
+
+Poängtrappan 
+
+Poängtrappans syfte är att hålla oseriösa och seriösa åtskilda. Trappan bygger på att spelaren samlar
+ihop ett antal poäng och på gott uppförande, dvs inte bryter mot regler etc.
+
+Trappan består av tre steg. 
+ - Everyone har alla åtkomst till efter att ha fyllt i presentation etc, 50 poäng
+ - Expert har uppnåt 300 poäng och behörighet skapa 3 aktiva rollspel
+ - Elite har uppnåt 900 poäng och har behörighet skapa 10 aktiva rollspel
+ 
+Poänginsamling
+
+ - 1 inloggning / dag = 1 poäng
+ - 10 texter / dag = 10 poäng att dela ut till andra spelare + 10 poäng till sig själv, om man delat ut dem.
+ - Man kan få poäng av andra spelare, ingen begränsning. 
+ 
+ Ytterligare poäng ger inte högre status i poängtrappan, men kan ge belöningar i form av pokal, titlar etc
+ 
+ Rollspelsinläggen
+ 
+En spelledare skapar rollspelet och den första texten. De övriga spelarna har då möjlighet att starta rollspelet och skriva ytterligare texter genom att trycka på RESPONSE.
+Så fort en spelare aktiverat RESPONSE göms den och de övriga får vänta tills spelaren är klar med sin text. Spelledaren kan välja hur lång tid man har på sig. Max 5, 10, 15, 30 eller 60 min.
+ 
+Under tiden inlägget är låst syns det vem som skriver och maximal tid som är kvar innan det måste vara klart.
+ 
+När spelaren sparat sitt inlägg är RESPONSE knappen tillgänglig igen för alla utom den som skapade sista texten.
+ 
+ (problem lösa, undvika att spelaren förlorar all sin text om ej uppmärksammar detta)
+
+Sedan fortsätter det så tills rollspelet går mot sitt slut. Då kan spelledaren avsluta rollspelet och ytterligare belöningar delas ut. Kan vara poäng eller nåt annat som belöning och motivation att hålla ordning på aktiva/inaktiva rollspel. Storleken på belöningen ska på nåt sätt avspegla popularitet och aktivitet i rollspelet.
+
+Inläggen ska vara sorterbara, äldsta respektive nyaste först.
+ 
+ 
+Rollspel inläggens innehåll
+ - Karaktärens avatar
+ - Avsändare som är en länk till karaktärens sida
+ - Datum
+ - Anmäla knapp
+ - Edit knapp som finns där tills någon klickar på RESPONSE knappen, därefter är inlägget låst
+ - RESPONSE knapp som låser inlägget i x antal min till spelaren är klart med sin responsinlägg.
+ 
+ 
+Spelstart
+ 
+Spelaren registrerar ett konto. Mailadress, ålder, kön, användarnamn, lösenord.
+Spelaren bekräftar sitt mailkonto. 
+Spelaren uppmanas att göra en presentation och sin första karaktär, vilket ger de första poängen som sedan ger åtkomst att gå med i ett rollspel (Everyone level)
+Spelaren väljer även språk.
+
+
+Personliga sidan
+ - Avatar
+ - Personlig information, ålder kön
+ - Språk
+ - Presentation av spelaren
+ - Lista på karaktärerna
+ - Lista på aktiva rollspel
+ - Lista på avklarade rollspel
+ - Eventuella achievements / pokaler etc
+
+Karaktärens sida
+ - Karaktärens avatar som även syns i inläggen
+ - Karaktärens namn som även syns i inläggen
+ - Karaktärens tema; Djur, Sc-fi, fantasy etc
+ - Karaktärens typ; WW,WH, Varulv, Vampyr etc
+ 
+ 
+ Rollspelets sida
+  För spelledaren 
+  - inställningar för rollspelet
+    - Språk
+    - Rollspelets namn
+	- Kort presentation, max 30 tecken
+	- Lång presentation
+	- Tema
+	- Vilka karaktärstyper som passar för rollspelet (styr om syns i sökning)
+	- Efterfrågade karaktärer
+	- Plats för en karta (ska det finnas möjlighet skapa karta i websiten?)
+	- Regler för rollspelet
+	- Antal Deltagare
+  
+  - administration
+    - Länk till sida för medlemsadministration. Inbjudningar, förfrågningar, Uteslutningar
+	- Möjlighet att ta bort inlägg.
+	- Ändra status för rollspelet
+	- Bestämma hur lång tid inlägget är låst
+	
+ 
+  För deltagarna
+  - Rollspelets beskrivning
+  - Rollspelets regler
+  - Lista på deltagarna / karaktärerna
+  - Rollspelets inläggstråd
+  
+ 
+ Språk
+ 
+ När det gäller språk är listan på valbara språk begränsat av de språk som administratörerna behärskar. Engelska och Svenska. 
+ Både spelaren och spelledaren kan välja enbart ett språk eller flera språk.
+ 
+ Hjälp
+ 
+ I spelet ska det på väl valda platser finnas hjälptexter som hjälper spelarna om de undrar över något. Hjälp ska finnas i anslutning till formulärens textrutor med info om vad som är tänkt att fyllas i där.

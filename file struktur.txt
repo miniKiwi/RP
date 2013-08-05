@@ -1,0 +1,50 @@
+Struktur vilka filer man ska ha
+
+Grunden är givetvis en startsida. Sedan även en css-fil och så en php-konfigurationsfil.
+
+index.php
+style.css
+config.php
+
+
+index.php filen har i vårt fall ändelsen php, det är för att vi tänker köra php-kod, annars hade det kunnat stå index.html för html-kod (i första hand). Men man underlättar för servern att svara snabbare om filändelsen motsvarar vad filen innehåller, dvs i vårt fall php-kod.
+
+I indexfilen skriver man kod som på något sätt bygger upp websidan. Det finns många olika alternativ hur man gör här.
+
+
+
+style.css är den fil som styr hur websidan ska se ut. Genom att ha en extern fil så underlättar man designen när man har flera websidor. Det går att lägga in css-koder i html-sidorna men rekommenderas inte om man har flera html-filer. Index är standardnamnet för den fil som webservern och webläsaren antar är startsidan.
+
+Ifrån varje html- eller php-fil länkar man till css-filen
+
+<head>
+   <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ 
+ css-filen sen i sin tur innehåller koder som styr hur text och grafik ska se ut.
+ 
+ T ex
+ 
+ H1 {
+   font-family: arial,helvetica;
+   font-size: 12pt;
+   color: green
+ }
+
+
+
+
+Config.php innehåller framförallt kopplingen till databasen men kan även innehålla andra definierade variabler som används i php-koden.
+
+<?php
+// Connection variables for database
+$dbms = 'mysqli';
+$dbhost = 'stefanlindh.se.mysql';
+$dbport = '';
+$dbname = 'stefanlindh_se';
+$dbuser = 'stefanlindh_se';
+$dbpasswd = '08jol31hft2';
+$table_prefix = 'rp_';
+$acm_type = 'file';
+$load_extensions = '';
+?>

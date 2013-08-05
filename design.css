@@ -1,0 +1,160 @@
+/* Makeshift CSS Reset */
+{
+    margin: 0;
+	padding: 0;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, nav, article {
+    display: block;
+}
+
+body {
+    margin: 0 auto;
+	width: 960px;
+	font: 13px/22px Helvetica, Arial, sans-serif;
+	background: #f0f0f0;
+}
+
+h2 {
+    font-size: 28px;
+
+	padding: 1px;
+}
+
+h3 {
+    font-size: 18px;
+	line-height: 22px;
+	padding: 11px 0;
+}
+
+p {
+    padding-bottom: 22px;
+}
+
+nav {
+    position: absolute;
+	background-image: url("menu_space2-960-blue.png");
+	background-repeat: no-repeat;
+}
+
+nav ul {
+    margin: 0 auto;
+	width: 960px;
+	list-style: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+    nav ul li a {
+	    display: block;
+		margin-right: 20px;
+		width: 140px;
+		font-size: 14px;
+		line-height: 44px;
+		text-align: center;
+		text-decoration: none;
+		color: #777;
+	}
+	
+	    ul li a:hover {
+		    color: #ff0000;
+	    }
+		
+		ul li.selected a {
+		    color: #FAAF00;
+		}
+	
+	#content {
+	    display: table;
+		margin-top: 70px;
+}
+
+	    #sidebar {
+	    display: table-cell;
+		width: 177px;
+		float: left;
+		color: #000000;
+		padding-left: 7px;
+		padding-right: 7px
+		background-size: 100%;
+		border-width: 25px;
+		-moz-border-image: url(border_space-blue.png) 27 stretch; /* Firefox */
+		-webkit-border-image: url(border_space-blue.png) 27 stretch; /* Safari and Chrome */
+		-o-border-image: url(border_space-blue.png) 27 stretch;  /* Opera */ 
+		border-image: url(border_space-blue.png) 27 fill stretch;
+	}
+	    #mainContent {
+		display: table-cell;
+		width: 630px;
+		float: right;
+		padding: 7px;
+		margin-left: 20px;
+		background-size: 100%;
+		border-width: 25px;
+		-moz-border-image: url(border_space-blue.png) 27 stretch; /* Firefox */
+		-webkit-border-image: url(border_space-blue.png) 27 stretch; /* Safari and Chrome */
+		-o-border-image: url(border_space-blue.png) 27 stretch;  /* Opera */ 
+		border-image: url(border_space-blue.png) 27 fill stretch;
+		border-spacing: 10px;
+	}
+	
+		#profileInfo {
+	    display: table-cell;
+		width: 430px;
+		height: 115px;
+		float: right;
+		padding: 7px;
+		padding-bottom: 30px;
+/*		border: solid 1px; */
+		background: #f0f0f0;
+	}
+	
+	    #profileAvatar {
+	    display: table-cell;
+		width: 150px;
+		height: 150px;
+		float: left;
+/*		padding: 7px; */
+/*      border: solid 1px; */
+/*		background: #FAAF00; */
+	}
+	
+	    #profilePresentation {
+		display: table-cell;
+		width: 615px;
+		float: left;
+		margin-top: 7px;
+		padding: 7px;
+		border: solid 1px; 
+		}
+		
+		#mainSecond {
+		display: table-cell;
+		width: 630px;
+		float: right;
+		margin-top: 12px;
+		margin-bottom: 12px;
+		padding: 7px;
+		border-width: 25px;
+		-moz-border-image: url(border_space-blue.png) 27 stretch; /* Firefox */
+		-webkit-border-image: url(border_space-blue.png) 27 stretch; /* Safari and Chrome */
+		-o-border-image: url(border_space-blue.png) 27 stretch;  /* Opera */ 
+		border-image: url(border_space-blue.png) 27 fill stretch;
+		border-spacing: 10px;
+		}
+	
+footer {
+	/* position: absolute; */
+	background-image: url("menu_space960-blue.png");
+	background-repeat: no-repeat;
+	width: 960px;
+	bottom: 0;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+
