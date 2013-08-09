@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* Makeshift CSS Reset */
 {
     margin: 0;
@@ -16,25 +18,15 @@ body {
 	background: #f0f0f0;
 }
 
-h2 {
-    font-size: 28px;
+h2 {font-size: 28px;	padding: 1px;}
+h3 {font-size: 18px;	line-height: 22px; padding: 11px 0;}
+p {padding-bottom: 22px;}
 
-	padding: 1px;
-}
-
-h3 {
-    font-size: 18px;
-	line-height: 22px;
-	padding: 11px 0;
-}
-
-p {
-    padding-bottom: 22px;
-}
+/* --- NAV --- */
 
 nav {
     position: absolute;
-	background-image: url("menu_space2-960-blue.png");
+	background-image: url("images/menu_space2-960-blue.png");
 	background-repeat: no-repeat;
 }
 
@@ -59,20 +51,23 @@ nav ul li {
 		color: #777;
 	}
 	
-	    ul li a:hover {
+	    nav ul li a:hover {
 		    color: #ff0000;
 	    }
 		
-		ul li.selected a {
+		nav ul li.selected a {
 		    color: #FAAF00;
 		}
 	
-	#content {
+
+/* -------- Content CSS -------- */
+	
+#content {
 	    display: table;
 		margin-top: 70px;
 }
 
-	    #sidebar {
+	#sidebar {
 	    display: table-cell;
 		width: 177px;
 		float: left;
@@ -81,12 +76,12 @@ nav ul li {
 		padding-right: 7px
 		background-size: 100%;
 		border-width: 25px;
-		-moz-border-image: url(border_space-blue.png) 27 stretch; /* Firefox */
-		-webkit-border-image: url(border_space-blue.png) 27 stretch; /* Safari and Chrome */
-		-o-border-image: url(border_space-blue.png) 27 stretch;  /* Opera */ 
-		border-image: url(border_space-blue.png) 27 fill stretch;
+		-moz-border-image: url(images/border_space-blue.png) 27 stretch; /* Firefox */
+		-webkit-border-image: url(images/border_space-blue.png) 27 stretch; /* Safari and Chrome */
+		-o-border-image: url(images/border_space-blue.png) 27 stretch;  /* Opera */ 
+		border-image: url(images/border_space-blue.png) 27 fill stretch;
 	}
-	    #mainContent {
+	#mainContent {
 		display: table-cell;
 		width: 630px;
 		float: right;
@@ -94,10 +89,10 @@ nav ul li {
 		margin-left: 20px;
 		background-size: 100%;
 		border-width: 25px;
-		-moz-border-image: url(border_space-blue.png) 27 stretch; /* Firefox */
-		-webkit-border-image: url(border_space-blue.png) 27 stretch; /* Safari and Chrome */
-		-o-border-image: url(border_space-blue.png) 27 stretch;  /* Opera */ 
-		border-image: url(border_space-blue.png) 27 fill stretch;
+		-moz-border-image: url(images/border_space-blue.png) 27 stretch; /* Firefox */
+		-webkit-border-image: url(images/border_space-blue.png) 27 stretch; /* Safari and Chrome */
+		-o-border-image: url(images/border_space-blue.png) 27 stretch;  /* Opera */ 
+		border-image: url(images/border_space-blue.png) 27 fill stretch;
 		border-spacing: 10px;
 	}
 	
@@ -139,16 +134,16 @@ nav ul li {
 		margin-bottom: 12px;
 		padding: 7px;
 		border-width: 25px;
-		-moz-border-image: url(border_space-blue.png) 27 stretch; /* Firefox */
-		-webkit-border-image: url(border_space-blue.png) 27 stretch; /* Safari and Chrome */
-		-o-border-image: url(border_space-blue.png) 27 stretch;  /* Opera */ 
-		border-image: url(border_space-blue.png) 27 fill stretch;
+		-moz-border-image: url(images/border_space-blue.png) 27 stretch; /* Firefox */
+		-webkit-border-image: url(images/border_space-blue.png) 27 stretch; /* Safari and Chrome */
+		-o-border-image: url(images/border_space-blue.png) 27 stretch;  /* Opera */ 
+		border-image: url(images/border_space-blue.png) 27 fill stretch;
 		border-spacing: 10px;
 		}
 	
 footer {
 	/* position: absolute; */
-	background-image: url("menu_space960-blue.png");
+	background-image: url("images/menu_space960-blue.png");
 	background-repeat: no-repeat;
 	width: 960px;
 	bottom: 0;
