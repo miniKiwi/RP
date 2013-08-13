@@ -1,4 +1,4 @@
-<!--		<ul>
+		<ul>
 		    <li><a href="#">Skriv</a></li>
 			<li><a href="#">Här finns länkar som hör ihop med sidan som spelaren är inne på.</a></li>
 			<li><a href="#">På ett rollspel skulle länkarna här vara skriv, joina (om spelaren inte är med i rollspelet) alternativt lämna (om spelaren är med och vill gå ur).</a></li>
@@ -6,7 +6,7 @@
 			<li><a href="#">Lämna / Joina</a></li>
 		</ul>
 	</div>
--->
+
     <div id="mainContent">
 	    <section>
 	        <p>
