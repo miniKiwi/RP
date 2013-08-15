@@ -87,6 +87,22 @@ Sedan fortsätter det så tills rollspelet går mot sitt slut. Då kan spelledaren a
 
 Inläggen ska vara sorterbara, äldsta respektive nyaste först.
  
+Spelare kan rösta upp eller ner andra spelares inlägg i rollspel de själva är med i.
+Rösta upp med rating (femstjärnig), och till det får spelaren välja (om denne vill) en anledning/extra bonus/förklaring, t ex bra grammatik, bra längd, intressant/givande till rollspelet, 
+Rösta ner med rating (femstjärnig), och till det får spelaren välja (om denne vill) en anledning/extra minus/förklaring, t ex dålig grammatik, dålig längd, tillför inget, innehåller PowerPlay, Innehåller GodMode
+Spelare kan även rapportera inlägg till spelledaren/moderatorer, och även rapportera hela spelare till moderatorer.
+
+	Vad man uppskattar i rollspel
+		korrekt grammatik
+		intressanta och välskrivna inlägg
+		trevliga rollspelare
+		
+	Vad man inte vill ha / inte uppskattar i ett rollspel
+		spam
+		dålig stavning
+		inlägg som inte tillför något / där det inte händer något
+		inlägg med PowerPlay, GodMode, eller liknande.
+		
  
 Rollspel inläggens innehåll
  - Karaktärens avatar
