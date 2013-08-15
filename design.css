@@ -29,6 +29,11 @@ li a:visited {text-decoration: none; color: #008;}
 li a:hover {text-decoration: none; color: #069;}
 li a:active {text-decoration: none; color: #FAAF00;}
 
+a:link {text-decoration: none; color: #008;}
+a:visited {text-decoration: none; color: #008;}
+a:hover {text-decoration: none; color: #069;}
+a:active {text-decoration: none; color: #FAAF00;}
+
 /* ---- Lists ---- */
 
 li {
@@ -40,7 +45,20 @@ li {
 nav {
     position: absolute;
 	background-image: url("images/menu_space2-960-blue.png");
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
+	
+/* ----------------- Black Gradient navigation menu (add as an option later?)	
+
+background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 11%, rgba(0,0,0,0.8) 29%, rgba(0,0,0,1) 51%, rgba(0,0,0,0.8) 71%, rgba(0,0,0,0.5) 88%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+/*background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(11%,rgba(0,0,0,0.5)), color-stop(29%,rgba(0,0,0,0.8)), color-stop(51%,rgba(0,0,0,1)), color-stop(71%,rgba(0,0,0,0.8)), color-stop(88%,rgba(0,0,0,0.5)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+/*background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 11%,rgba(0,0,0,0.8) 29%,rgba(0,0,0,1) 51%,rgba(0,0,0,0.8) 71%,rgba(0,0,0,0.5) 88%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+/*background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 11%,rgba(0,0,0,0.8) 29%,rgba(0,0,0,1) 51%,rgba(0,0,0,0.8) 71%,rgba(0,0,0,0.5) 88%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+/*background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 11%,rgba(0,0,0,0.8) 29%,rgba(0,0,0,1) 51%,rgba(0,0,0,0.8) 71%,rgba(0,0,0,0.5) 88%,rgba(0,0,0,0) 100%); /* IE10+ */
+/*background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 11%,rgba(0,0,0,0.8) 29%,rgba(0,0,0,1) 51%,rgba(0,0,0,0.8) 71%,rgba(0,0,0,0.5) 88%,rgba(0,0,0,0) 100%); /* W3C */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+
+/* ---- END gradient nav menu css ---- */
+
 }
 
 nav ul {
@@ -71,7 +89,6 @@ nav ul li {
 		nav ul li.selected a {
 		    color: #FAAF00;
 		}
-	
 
 /* -------- Content CSS -------- */
 	
@@ -140,7 +157,7 @@ nav ul li {
 		height: 150px;
 		float: left;
 /*		padding: 7px; */
-/*      border: solid 1px; */
+      border: solid 1px; 
 /*		background: #FAAF00; */
 	}
 	
@@ -231,6 +248,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .profileTable tbody tr:hover td {
 	color: #009;
 }
+.profileTable a li {}
 /* -------- End of table layout -------- */
 	
 /* ---- ON / OFF switch ---- */
