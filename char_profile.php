@@ -19,7 +19,7 @@
             <b>Amazon</b><br>
 		    Tema: Djur & Fantasy<br>
 			Typ: Varg<br>
-			Kön: Hona
+			Kön: Hona<br>
 			Ålder: 4 år<br>
 			</div>
 		    </p>
@@ -31,9 +31,20 @@
 	    </section>
 	</div>
 	        <section>
-	        <div id="mainSecond">
+	<div id="mainSecond">
 			Rollspel - Här kan man ha ett nummer på antal rollspel (och antal avslutade rollspel inom parentes)<br>
-			Achievements - Karaktärerna skulle kunna ha ahchievements, t ex varit med i ex antal rollspel osv.<br>
-			</div>
+		<table class="profileTable">
+			<tr>
+				<th>
+					<b>Achievements</b><br>
+				</th>
+			</tr>
+			<tr>
+				<td>
+					Achievements - Karaktärerna skulle kunna ha ahchievements, t ex varit med i ex antal rollspel osv.<br>
+				</td>
+			</tr>
+		</table>
+	</div>
 			</section>
 
