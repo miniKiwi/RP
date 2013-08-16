@@ -55,17 +55,17 @@ class Connect
 		$message .= "\n\nAutomatiskt mail från Stefan Lindh - det går inte att svara på mailet.\n";
 		$message .= "\nändra e-postadressen i clsConnect.php\n";
 		$message = wordwrap($message, 70);
-		$ok = mail($to, "Meddelande från Wild Life", $message, "From: admin@stefanlindh.se\r\n");
+		$ok = mail($to, "Meddelande från AdminContent", $message, "From: admin@stefanlindh.se\r\n");
 		if( !$ok ) {
 			// if something fails, try again on the backup email address
 			$message =
-"Meddelande från Wild Life\nEtt fel inträffade och systemet försökte skicka
+"Meddelande från RP\nEtt fel inträffade och systemet försökte skicka
 ett e-postmeddelande till adressen '$to'. Det gick inte att skicka mailet.
 Kontrollera att e-postadressen är korrekt.
 
 Här följer det ursprungliga felmeddelandet, som är ämnat till utvecklaren:
 $message ";
-			$ok = mail(self::CONTACT_EMAIL2, "Meddelande från Wild Life", $message, "From: admin@stefanlindh.se\r\n");
+			$ok = mail(self::CONTACT_EMAIL2, "Meddelande från AdminContent", $message, "From: admin@stefanlindh.se\r\n");
 			// TODO: if this fails, give up?
 		}
 	}
