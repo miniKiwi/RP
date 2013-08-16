@@ -1,7 +1,7 @@
 		<ul>
 		    <li><a href="#">Ändra profil</a></li>
 			<li><a href="#">Ändra avatar</a></li>
-			<li><a href="#">0.5</a></li>
+			<li><a href="#">Inställningar</a></li>
 			<br>
 			<li><a href="#">1</a></li>
 		</ul>
@@ -29,4 +29,27 @@
 			Såhär tänkte jag från början.
 			</div><br>
 	    </section>
+	</div>
+	<div id="mainSecond">
+		<table class="profileTable">
+			<tr>
+				<th>
+					<b>Karaktärer</b><br>
+				</th>
+			<tr>
+				<td>
+					<font background="blue"><a href="start.php?location=character">Amazon</a></font><br>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<b>Rollspel</b><br>
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<b>Achievements</b><br>
+				</th>
+			</tr>
+		</table>
 	</div>
