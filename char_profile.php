@@ -1,3 +1,4 @@
+<div id="sidebarMenu">
 		<ul>
 		    <li><a href="#">Ändra karaktär</a></li>
 			<li><a href="#">Ändra bild</a></li>

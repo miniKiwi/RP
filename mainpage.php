@@ -1,7 +1,7 @@
 <div id="sidebarMenu">
 	<ul>
 		    <li><a href="#">Skriv</a></li>
-			<li><a href="#">H岠finns l寫ar som h򲠩hop med sidan som spelaren 岠inne p宼/a></li>
+			<li><a href="#">H岠finns l寫ar som h򲠩hop med sidan som spelaren 岠inne p宼</a></li>
 			<li><a href="#">P塥tt rollspel skulle l寫arna h岠vara skriv, joina (om spelaren inte 岠med i rollspelet) alternativt l宮a (om spelaren 岠med och vill g塵r).</a></li>
 			<br>
 			<li><a href="#">Lämna / Joina</a></li>
@@ -9,7 +9,6 @@
 	</div>
 
     <div id="mainContent">
-	    <section>
 	        <p>
 			<h1>Index</h1><br>
 			This is mainpage.php<br>
@@ -26,5 +25,4 @@
 			<br>
 	        Innan du börjar rollspela kan det vara bra att l崡 sidans regler, som finns <a href="tos.html">här</a>. Detta är mainpage.php
 		    </p>
-	    </section>
 	</div>

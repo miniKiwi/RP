@@ -1,3 +1,4 @@
+<div id="sidebarMenu">
 		<ul>
 		    <li><a href="#">Ändra profil</a></li>
 			<li><a href="#">Ändra avatar</a></li>
