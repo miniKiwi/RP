@@ -66,6 +66,7 @@ header("Link: <$page_url?location=index>; rel=\"previous\"; title=\"UTF-8'se'Log
 		<header id="pageHeader">		
 			<?php include ('header.php'); ?>
 		</header>
+		<?php include ('nav.php'); ?>
 		
 		<!-- <div id="pageContent"> -->
 		
