@@ -39,7 +39,7 @@
 				</th>
 			<tr>
 				<td>
-					<font background="blue"><a href="start.php?location=character">Amazon</a></font><br>
+					<font background="blue"><a href="index.php?location=character">Amazon</a></font><br>
 				</td>
 			</tr>
 			<tr>
