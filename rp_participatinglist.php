@@ -11,7 +11,7 @@
 	<p>Här finns en lista på alla de rollspel du är med i..</p>
 	    		<table class="profileTable">
 			<tr>
-				<th>
+				<th colspan="0">
 					<b>Aktiva rollspel</b><br>
 				</th>
 			<tr>
@@ -26,17 +26,23 @@
 				</td>
 			</tr>
 			<tr>
-				<th>
+				<th colspan="0">
 					<b>Pausade rollspel</b><br>
 				</th>
 			</tr>
 			<tr>
 				<td>
+				
+				</td>
+				<td>
 				none	
+				</td>
+				<td>
+					
 				</td>
 			</tr>
 			<tr>
-				<th>
+				<th colspan="0">
 					<b>Avslutade rollspel</b>
 				</th>
 			</tr>
