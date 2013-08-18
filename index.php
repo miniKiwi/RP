@@ -140,6 +140,9 @@ function changelocation($location) {
 		case 'FAQ':
 			include ('FAQ.php');
 			break;
+		case 'contact':
+			include ('contact.php');
+			break;
 
 	default:	// should never be reached unless user delibertely typed an undefined location in browser address field...
 			echo("<p> INVALID LOCATION '$location'</p>");
