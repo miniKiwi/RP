@@ -1,16 +1,5 @@
 @charset "UTF-8";
 
-/* Makeshift CSS Reset remove htlm5 margins */
-{
-    margin: 0;
-	padding: 0;
-}
-
-/* Tell the browser to render HTML 5 elements as block */
-header, footer, aside, nav, article {
-    display: block;
-}
-
 body {
     margin: 0 auto;
 	width: 960px;
@@ -23,10 +12,10 @@ h2{font-size: 28px; padding: 1px;}
 h3 {font-size: 18px; line-height: 5px; padding: 1px;}
 p {padding-bottom: 2px; size: 13px;}
 ul {margin: 0; padding: 0;}
-li {list-style: none; margin: 5px;}
 span {font-size: 13px;}
 
 /* ---- links ---- */
+li {list-style: none; margin: 5px;}
 
 li a:link {text-decoration: none; color: #008;}
 li a:visited {text-decoration: none; color: #008;}
@@ -38,45 +27,34 @@ a:visited {text-decoration: none; color: #008;}
 a:hover {text-decoration: none; color: #069;}
 a:active {text-decoration: none; color: #FAAF00;}
 
-/* ---- Lists ---- */
 
-li {
-	list-style: none;
+/* -------- The frame of all index.php  --------*/
+#pageContainer {
+	margin: 0px auto 0px auto;
+	width: 100%;
+}
+
+/* --- header --- */
+#pageHeader {
+	background-image: url('images/headerbildskainhärjpg');
+	background-position: top left;
+	width: 100%;
 }
 
 /* --- NAV --- */
-
-#nav {
-    position: absolute;
-	background-image: url("images/menu_space2-960-blue.png");
+#pageNav {
+    background-image: url("images/menu_space2-960-blue.png");
 	background-repeat: no-repeat; 
-	clear: both;
-	
-/* ----------------- Black Gradient navigation menu (add as an option later?)	
-
-background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 11%, rgba(0,0,0,0.8) 29%, rgba(0,0,0,1) 51%, rgba(0,0,0,0.8) 71%, rgba(0,0,0,0.5) 88%, rgba(0,0,0,0) 100%); /* FF3.6+ */
-/*background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(11%,rgba(0,0,0,0.5)), color-stop(29%,rgba(0,0,0,0.8)), color-stop(51%,rgba(0,0,0,1)), color-stop(71%,rgba(0,0,0,0.8)), color-stop(88%,rgba(0,0,0,0.5)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-/*background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 11%,rgba(0,0,0,0.8) 29%,rgba(0,0,0,1) 51%,rgba(0,0,0,0.8) 71%,rgba(0,0,0,0.5) 88%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
-/*background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 11%,rgba(0,0,0,0.8) 29%,rgba(0,0,0,1) 51%,rgba(0,0,0,0.8) 71%,rgba(0,0,0,0.5) 88%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
-/*background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 11%,rgba(0,0,0,0.8) 29%,rgba(0,0,0,1) 51%,rgba(0,0,0,0.8) 71%,rgba(0,0,0,0.5) 88%,rgba(0,0,0,0) 100%); /* IE10+ */
-/*background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 11%,rgba(0,0,0,0.8) 29%,rgba(0,0,0,1) 51%,rgba(0,0,0,0.8) 71%,rgba(0,0,0,0.5) 88%,rgba(0,0,0,0) 100%); /* W3C */
-/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
-
-/* ---- END gradient nav menu css ---- */
-
-}
-
-#nav ul {
+}	
+#pageNav ul {
     margin: 0 auto;
 	width: 960px;
 	list-style: none;
 }
-
-#nav ul li {
+#pageNav ul li {
     float: left;
 }
-
-    #nav ul li a {
+	#pageNav ul li a {
 	    display: block;
 		margin-right: 20px;
 		width: 140px;
@@ -86,54 +64,31 @@ background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 11%, r
 		text-decoration: none;
 		color: #777;
 	}
-	
-	    #nav ul li a:hover {
+	    #pageNav ul li a:hover {
 		    color: #ff0000;
 	    }
 		
-		#nav ul li.selected a {
+		#pageNav ul li.selected a {
 		    color: #FAAF00;
 		}
-
-
-/* -------- The layout of index.php  --------*/
-#pageContainer {
-	margin: 0px auto 0px auto;
+	
+#pageMain {
 	width: 100%;
 }
 
-#pageHeader {
-	background-image: url('images/headerbildskainh岮jpg');
-	background-position: top left;
-	width: 100%;
+#pageFooter {
+	position: relative; 
+	background-image: url("images/menu_space960-blue.png");
+	background-repeat: no-repeat;
+	width: 960px;
+	bottom: 0;
+	text-align: center;
+	padding-top: 10px;
+
+	clear: both;
 }
 
-
-#pageContent {
-	background-color: #f0f0f0;
-	min-height:100%;   
-	padding:10px 0px 10px 0px;
-	width: 177px;
-	clear: left;
-}
-
-
-#sidebarUserInfo {
-	display: aside;
-	width: 177px;
-	float: left;
-	/*clear: left; */
-	color: #000000;
-	padding-left: 7px;
-	/*padding-right: 7px; */
-	margin-top: 65px;
-	/*background-size: 100%; */
-	/*border-width: 25px; */
-	/* -moz-border-image: url(images/border_space-blue.png) 27 stretch; /* Firefox */
-	/* -webkit-border-image: url(images/border_space-blue.png) 27 stretch; /* Safari and Chrome */
-	/* -o-border-image: url(images/border_space-blue.png) 27 stretch;  /* Opera */ 
-	/* border-image: url(images/border_space-blue.png) 27 fill stretch;*/
-}
+/* ---------------- mainpage + other sides with two columns ----- */
 
 #sidebarMenu {
 	display: table-cell;
@@ -166,6 +121,8 @@ background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 11%, r
 	border-spacing: 10px;
 }
 
+
+
 #mainSecond {
 	display: table-cell;
 	width: 700px;
@@ -181,22 +138,9 @@ background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 11%, r
 	/*border-spacing: 10px; */
 }
 
-#pageMain {
-	float: right;
 
-}
 
-#pageFooter {
-	 position: relative; 
-background-image: url("images/menu_space960-blue.png");
-background-repeat: no-repeat;
-width: 960px;
-bottom: 0;
-text-align: center;
-padding-top: 10px;
-margin-top: 20px;
-clear: both;
-}
+
 
  /* --- END index --- */
  
@@ -231,12 +175,6 @@ clear: both;
 		padding: 7px;
 		border: solid 1px; 
 		}
-		
-/* ---- Roleplay page ---- */
-
-#rpInfo {}
-
-.rpPost {}
 
  /* ------------------------------- TABLES ----------------------------- */
  
@@ -327,6 +265,24 @@ color: #309;
 
 /* ----- END Table Search ----- */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---- ON / OFF switch ---- */
 
 .onoffswitch {
@@ -387,3 +343,4 @@ color: #309;
 }
 
 /* ------ END ON / OFF switch --------- */
+

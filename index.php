@@ -65,23 +65,21 @@ header("Link: <$page_url?location=index>; rel=\"previous\"; title=\"UTF-8'se'Log
 <div id="pageContainer">
 		<header id="pageHeader">		
 			<?php include ('header.php'); ?>
+						
 		</header>
-		<?php include ('nav.php'); ?>
-		
-		<!-- <div id="pageContent"> -->
-		
-			<!-- Here you find the sidebar and the content visible all pages -->
-			<div id="sidebarUserInfo">
-			<?php include ('userinfo.php'); ?>
-			<hr>
-			</div>
-			
-			<!-- <div id="pageMain"> -->
-		
-				<?php changelocation($location); /* When function changelocation is called, new content is included here */ ?>
-			<!-- </div> -->
-			
-		<!-- </div> -->
+
+		<nav id="pageNav">
+			<ul>
+				<li><a href="index.php?location=index">home</a></li>
+				<li><a href="index.php?location=profile">profile</a></li>
+				<li><a href="index.php?location=rp_participatinglist">rollspel</a></li>
+				<li><a href="index.php?location=search">sök</a></li>
+			</ul>
+		</nav>
+				
+		<div id="pageMain">
+			<?php changelocation($location); /* When function changelocation is called, new content is included here */ ?>
+		</div>
 			
 		<footer id="pageFooter">
 				<?php include ('footer.php'); ?>
@@ -138,6 +136,9 @@ function changelocation($location) {
 			break;
 		case 'editroleplay':
 			include ('rp_SLedit.php');
+			break;
+		case 'FAQ':
+			include ('FAQ.php');
 			break;
 
 	default:	// should never be reached unless user delibertely typed an undefined location in browser address field...
