@@ -1,7 +1,7 @@
 <div id="sidebarMenu">
 		<ul>
 		    <li><a href="index.php?location=search">Sök efter rollspel</a></li><br>
-			<li><a href="#">Starta ett nytt rollspel</a></li>
+			<li><a href="index.php?location=createroleplay">Starta ett nytt rollspel</a></li>
 			<br>
 			<li><a href="#">1</a></li>
 		</ul>

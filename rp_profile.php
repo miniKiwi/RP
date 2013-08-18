@@ -2,7 +2,7 @@
 		<ul>
 		    <li><a href="#">Skriv</a></li>
 			<li><a href="#">-</a></li>
-			<li><a href="#">(if SL) Rollspelets inställningar</a></li>
+			<li><a href="index.php?location=editroleplay">(if SL) Rollspelets inställningar</a></li>
 			<li><a href="#">Deltagarinställningar</a><li>
 			<br>
 			<li><a href="#">Joina / Lämna</a></li>

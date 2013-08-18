@@ -11,6 +11,12 @@
     <div id="mainContent">
 	    CSS<br>
 		Overall design:<br>
+			<select>
+		<option>Space blue</option>
+		<option>Metallic</option>
+		<option>Nature green</option>
+		<option>Tea xD</option>
+	</select>
 		Header image:<br>
 	</div>
 	<div id="mainSecond">

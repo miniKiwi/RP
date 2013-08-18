@@ -1,5 +1,9 @@
 <div id="sidebarMenu">
-nothing
+		<ul>
+		    <li><a href="index.php?location=createroleplay">Starta nytt rollspel</a></li>
+			<br>
+			<li><a href="#">-</a></li>
+		</ul>
 </div>
 <div id="mainContent">
 Sökruta (denna blir minimerad när spelaren har skickat sin sökning. Den kan vecklas ut igen med en pil)<br>
