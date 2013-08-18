@@ -127,6 +127,18 @@ function changelocation($location) {
 		case 'rp_participatinglist':
 			include ('rp_participatinglist.php');
 			break;
+		case 'settings':
+			include ('settings.php');
+			break;
+		case 'roleplay':
+			include ('rp_profile.php');
+			break;
+		case 'createroleplay':
+			include ('rp_create.php');
+			break;
+		case 'editroleplay':
+			include ('rp_SLedit.php');
+			break;
 
 	default:	// should never be reached unless user delibertely typed an undefined location in browser address field...
 			echo("<p> INVALID LOCATION '$location'</p>");
