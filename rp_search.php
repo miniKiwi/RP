@@ -99,7 +99,7 @@ Sökruta (denna blir minimerad när spelaren har skickat sin sökning. Den kan v
 				
 			<tr>
 				<td>
-				Rollspel 1
+				<a href="index.php?location=roleplay">Rollspel 1</a>
 				</td>
 				<td>
 				Spelledares namn
