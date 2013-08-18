@@ -122,17 +122,17 @@ background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 11%, r
 	display: aside;
 	width: 177px;
 	float: left;
-	clear: left;
+	/*clear: left; */
 	color: #000000;
 	padding-left: 7px;
-	padding-right: 7px;
+	/*padding-right: 7px; */
 	margin-top: 65px;
-	background-size: 100%;
-	border-width: 25px;
-	-moz-border-image: url(images/border_space-blue.png) 27 stretch; /* Firefox */
-	-webkit-border-image: url(images/border_space-blue.png) 27 stretch; /* Safari and Chrome */
-	-o-border-image: url(images/border_space-blue.png) 27 stretch;  /* Opera */ 
-	border-image: url(images/border_space-blue.png) 27 fill stretch;
+	/*background-size: 100%; */
+	/*border-width: 25px; */
+	/* -moz-border-image: url(images/border_space-blue.png) 27 stretch; /* Firefox */
+	/* -webkit-border-image: url(images/border_space-blue.png) 27 stretch; /* Safari and Chrome */
+	/* -o-border-image: url(images/border_space-blue.png) 27 stretch;  /* Opera */ 
+	/* border-image: url(images/border_space-blue.png) 27 fill stretch;*/
 }
 
 #sidebarMenu {
@@ -153,17 +153,17 @@ background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 11%, r
 
 #mainContent {
 	/*display: table-cell;*/
-	width: 650px;
+	width: 720px;
 	float: right;
 	padding: 7px;
 	/*margin-left: 20px;
 	background-size: 100%;
-	border-width: 25px;
-	-moz-border-image: url(images/border_space-blue.png) 27 stretch; /* Firefox */
-	-webkit-border-image: url(images/border_space-blue.png) 27 stretch; /* Safari and Chrome */
-	-o-border-image: url(images/border_space-blue.png) 27 stretch;  /* Opera */ 
-	border-image: url(images/border_space-blue.png) 27 fill stretch;
-	border-spacing: 10px; */
+	border-width: 25px; */
+	/*-moz-border-image: url(images/border_space-blue.png) 27 stretch; /* Firefox */
+	/*-webkit-border-image: url(images/border_space-blue.png) 27 stretch; /* Safari and Chrome */
+	/*-o-border-image: url(images/border_space-blue.png) 27 stretch;  /* Opera */ 
+	/*border-image: url(images/border_space-blue.png) 27 fill stretch; */
+	border-spacing: 10px;
 }
 
 #mainSecond {
@@ -173,12 +173,12 @@ background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 11%, r
 	margin-top: 12px;
 	margin-bottom: 12px;
 	padding: 7px;
-	border-width: 25px;
-	-moz-border-image: url(images/border_space-blue.png) 27 stretch; /* Firefox */
-	-webkit-border-image: url(images/border_space-blue.png) 27 stretch; /* Safari and Chrome */
-	-o-border-image: url(images/border_space-blue.png) 27 stretch;  /* Opera */ 
-	border-image: url(images/border_space-blue.png) 27 fill stretch;
-	border-spacing: 10px;
+	/*border-width: 25px;
+	/*-moz-border-image: url(images/border_space-blue.png) 27 stretch; /* Firefox */
+	/*-webkit-border-image: url(images/border_space-blue.png) 27 stretch; /* Safari and Chrome */
+	/*-o-border-image: url(images/border_space-blue.png) 27 stretch;  /* Opera */ 
+	/*border-image: url(images/border_space-blue.png) 27 fill stretch; */
+	/*border-spacing: 10px; */
 }
 
 #pageMain {
@@ -231,6 +231,12 @@ clear: both;
 		padding: 7px;
 		border: solid 1px; 
 		}
+		
+/* ---- Roleplay page ---- */
+
+#rpInfo {}
+
+.rpPost {}
 
  /* ------------------------------- TABLES ----------------------------- */
  
@@ -249,6 +255,13 @@ clear: both;
 	text-align: left;
 	padding-left: 10px;
 	color: #FFF; 
+
+/*column-span: 3; /* W3C */
+/*-webkit-column-span: 3; /* Safari & Chrome */
+/*-moz-column-span: 3; /* Firefox */
+/*-ms-column-span: 3; /* Internet Explorer */
+/*-o-column-span: 3; /* Opera */
+
 	/*padding: 5px 3px;
 	border-top: 0px;
 	border-left:0px;
@@ -272,7 +285,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 }
 .profileTable tbody tr:hover td {
 	color: #009;
-	background-color: #CCCCCC;
+	background-color: #DCDCDC;
 }
 
 /* -------- End of profile table layout -------- */
