@@ -35,7 +35,7 @@
 		<table class="profileTable">
 			<tr>
 				<th>
-					<b>Karaktärer</b><br>
+					<b>Karaktärer</b> <a href="index.php?location=createcharacter">+ New char</a><br>
 				</th>
 			<tr>
 				<td>
